@@ -1,26 +1,5 @@
 /*                Hero                 */
 
-#hero {
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  bottom: 0;
-  z-index: 0;
-  overflow:hidden;
-}
-
-.hero-wrap {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.hero-img img {
-  max-width: 100%;
-  height: auto;
-  position: absolute;
-}
-
 #img1 {
   animation: fade 20s infinite;
 }
@@ -66,10 +45,9 @@
 
 .words {
   position: absolute;
-  top: 30%;
+  top: 40%;
   max-width: 50%;
   z-index: 15;
-
   padding: 0 5%;
 }
 
@@ -94,20 +72,11 @@
 
 /*            Main Div                 */
 
-#main {
-  position: relative;
-  top: calc(100vh - 70px);
-}
-
-.content-box {
-  width: 100%;
-  padding: 3em 5%;
-
-}
 
 #aboutus {
   background-color: #ED7179;
   color: #fff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.14);
 }
 
 #fulltext b {
@@ -178,12 +147,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: .2s all ease-in-out;
+}
+
+#ppbutton:hover {
+  background-color: rgb(225, 225, 225);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.14);
 }
 
 #pplogo {
   position: relative;
-  top: 3.5em;
+  transition: .2s all ease-in-out;
+  height: 40px;
 }
+
 
 #pplogo > path {
   fill: #00286E;

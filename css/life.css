@@ -1,0 +1,107 @@
+.nav-link{
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.14);
+}
+
+.words {
+  position: absolute;
+  top: 25%;
+  max-width: 45%;
+  z-index: 15;
+  padding: 0 5%;
+}
+
+.hero-wrap {
+  background-image: linear-gradient(rgb(149, 193, 252) 0, rgb(149, 193, 252) 85%, rgba(255,255,255,0) 98%) ;
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.14);
+}
+
+.hero-img {
+  opacity: .2;
+}
+
+.grid {
+  margin-top: 2em;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2em;
+}
+
+.grid-item {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.14);
+  border-radius: 3px;
+}
+
+.grid-item i {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.grad1 {
+  color: rgb(186, 213, 248);
+}
+
+.grad2 {
+  color: rgb(149, 193, 252);
+}
+
+.grad3 {
+  color: rgb(95, 154, 231);
+}
+
+.grad4 {
+  color: rgb(30, 97, 184);
+}
+
+#form {
+  background-color: rgb(149, 193, 252);
+  color: #fff;
+  text-shadow: 1px 1px 5px rgba(0,0,0,0.14);
+  text-align: center;
+}
+
+#button {
+  background-color: #fff;
+  margin: 2em auto 0 auto;
+  border-radius: 50px;
+  width: 33%;
+  padding: 1% 2%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: .2s all ease-in-out;
+  color: rgb(149, 193, 252);
+  text-decoration: none;
+  text-shadow: none;
+  font-size: 1.25rem;
+}
+
+#button:hover {
+  background-color: rgb(225, 225, 225);
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.14);
+}
+
+.inner-text h3 {
+  margin: 2em 0;
+  color: rgb(149, 193, 252);
+  text-align: center;
+}
+
+#tradeoff {
+  background-color: rgb(248, 248, 248);
+}
+
+#tradeoff img {
+  width: 100%;
+  margin: 2em auto 0 auto;
+}
