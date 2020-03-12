@@ -2,6 +2,24 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Font styles */
+
+h1 {
+  font-size: 3rem;
+  line-height: 2.95rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
 }
 
 body {
@@ -26,6 +44,8 @@ body {
     display: none;
   }
 }
+
+/*       Nav      */
 
 nav {
   width: 100%;
@@ -81,4 +101,3 @@ nav ul {
   float: right;
   padding-left: 5%;
 }
-
