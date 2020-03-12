@@ -160,3 +160,31 @@
   background-color: rgb(255, 148, 156);
   box-shadow: 2px 2px 5px rgba(0,0,0,0.14);
 }
+
+#gethelp {
+  background-color: #00286E;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#ppbutton {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 33%;
+  padding: 1% 2%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#pplogo {
+  position: relative;
+  top: 3.5em;
+}
+
+#pplogo > path {
+  fill: #00286E;
+}
