@@ -5,13 +5,13 @@
 .words {
   position: absolute;
   top: 25%;
-  max-width: 50%;
+  max-width: 40%;
   z-index: 15;
   padding: 0 5%;
 }
 
 .hero-wrap {
-  background-image: linear-gradient(#FFE9EB 0, #FFE9EB 85%, rgba(255,255,255,0) 98%) ;
+  background-image: linear-gradient(#E7E9D1 0, #E7E9D1 85%, rgba(255,255,255,0) 98%) ;
   color: #000;
   text-shadow: 1px 1px 5px rgba(255,255,255,0.14);
 }
@@ -21,9 +21,12 @@
 }
 
 .grid {
+  margin-top: 2em;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2%;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2em;
 }
 
 .grid-item {
@@ -37,52 +40,29 @@
   border-radius: 3px;
 }
 
-.grid-item img {
-  max-height: 12em;
-  margin-bottom: 1em;
-  border-radius: 3px;
-  object-fit: cover;
-}
-
-.grid-item a {
-  width: 40%;
-  padding: 2%;
-  background-color: #ED7179;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 25px;
-  margin: 1em auto 0 auto;
-  transition: .2s all ease-in-out;
-}
-
-.grid-item a:hover {
-  background-color: rgb(255, 148, 156);
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.14);
-}
-
 .grid-item i {
   font-size: 3rem;
   margin-bottom: 1rem;
 }
 
 .grad1 {
-  color: #FFE9EB;
+  color: #E7E9D1;
 }
 
 .grad2 {
-  color: rgb(248, 201, 205);
+  color: rgb(228, 235, 161);
 }
 
 .grad3 {
-  color: rgb(248, 151, 159);
+  color: rgb(209, 218, 112);
 }
 
 .grad4 {
-  color: rgb(240, 85, 98);
+  color: rgb(187, 201, 41);
 }
 
 #form {
-  background-color: #FFE9EB;;
+  background-color: #E7E9D1;;
   color: #fff;
   text-shadow: 1px 1px 5px rgba(0,0,0,0.14);
   text-align: center;
@@ -99,7 +79,7 @@
   align-items: center;
   justify-content: center;
   transition: .2s all ease-in-out;
-  color: #FFE9EB;;
+  color: #E7E9D1;;
   text-decoration: none;
   text-shadow: none;
   font-size: 1.25rem;
@@ -112,7 +92,7 @@
 
 .inner-text h3 {
   margin: 2em 0;
-  color: #FFE9EB;;
+  color: #E7E9D1;;
   text-align: center;
 }
 
