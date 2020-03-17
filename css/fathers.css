@@ -2,9 +2,21 @@
   text-shadow: 1px 1px 5px rgba(255,255,255,0.14);
 }
 
+#main p a {
+  text-decoration: none;
+  color: rgb(169, 184, 6);
+  font-weight: 700;
+  border-bottom: 2px solid rgba(187, 201, 41, 0);
+  transition: .2s all ease-in-out;
+}
+
+#main p a:hover {
+  border-bottom: 2px solid rgb(187, 201, 41);
+}
+
 .words {
   position: absolute;
-  top: 25%;
+  top: 35%;
   max-width: 40%;
   z-index: 15;
   padding: 0 5%;
@@ -12,8 +24,7 @@
 
 .hero-wrap {
   background-image: linear-gradient(#E7E9D1 0, #E7E9D1 85%, rgba(255,255,255,0) 98%) ;
-  color: #000;
-  text-shadow: 1px 1px 5px rgba(255,255,255,0.14);
+  text-shadow: 1px 1px 5px rgba(240, 243, 205, 0.54);
 }
 
 .hero-img {
@@ -48,7 +59,7 @@
 .grid-item a {
   width: 40%;
   padding: 2%;
-  background-color: #ED7179;
+  background-color: rgb(187, 201, 41);
   color: #fff;
   text-decoration: none;
   border-radius: 25px;
@@ -57,7 +68,7 @@
 }
 
 .grid-item a:hover {
-  background-color: rgb(255, 148, 156);
+  background-color: rgb(209, 218, 112);
   box-shadow: 2px 2px 5px rgba(0,0,0,0.14);
 }
 
@@ -98,10 +109,55 @@
 }
 
 #whatis img {
-  margin-top: 2em;
+  margin: 2em auto 0 auto;
   max-width: 100%;
 }
 
-#news {
+#coop {
+  background-color: #E7E9D1;
+}
+
+.list-comp {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+#coop img {
+  max-width: 100%;
+}
+
+.list-comp div {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2% 4%;
+  text-align: center;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.14);
+  border-radius: 3px;
+  width: 400px;
+}
+
+ul {
+  list-style: none;
+}
+
+.list-comp li {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+}
+
+hr {
+  width: 80%;
+  margin: .3em auto 0 auto;
+  border: 1px solid rgb(187, 201, 41);
+}
+
+#modern {
   background-color: #E7E9D1;
 }

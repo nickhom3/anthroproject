@@ -87,8 +87,9 @@
 }
 
 #button:hover {
-  background-color: rgb(225, 225, 225);
+  background-color: rgb(62, 144, 252);
   box-shadow: 2px 2px 5px rgba(0,0,0,0.14);
+  color: #fff;
 }
 
 .inner-text h3 {
